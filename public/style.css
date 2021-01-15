@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Indie Flower', cursive !important;
+  font-size: 40px;
+}
+
+textarea {
+  outline: none;
+  border: none;
+  width: 275px;
+  height: 275px;
+  max-width: 275px;
+  min-width: 275px;
+  max-height: 275px;
+  min-height: 275px;
+  padding: 40px 25px 25px 25px;
+}
+
+svg {
+  color: grey;
+}
+
+#check-icon {
+  position: absolute;
+  right: 17%;
+  top: 90%;
+  border: none;
+  background-color: transparent;
+}
+
+#x-icon {
+  position: absolute;
+  right: 5%;
+  top: 90%;
+  border: none;
+  background-color: transparent;
+}
+
+.delete-button {
+  position: absolute;
+  right: 5%;
+  top: 85%;
+  border: none;
+  background-color: transparent;
+}
+
+.new-sticker {
+  position: absolute;
+  top: 26%;
+  left: 40%;
+  display: none;
+  background-color: white;
+  box-shadow: 10px 10px 20px 0px rgba(92, 91, 91, 0.75);
+
+}
+
+.display-block {
+  display: block;
+}
+
+.board-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-left: 5%;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+.sticker {
+  width: 250px;
+  height: 250px;
+  font-size: 26px;
+  padding: 25px;
+  margin-top: 10px;
+  overflow: hidden;
+  box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.75)
+}
